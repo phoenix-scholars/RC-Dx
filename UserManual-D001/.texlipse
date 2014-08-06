@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Wed Aug 06 10:15:08 IRDT 2014
+markTmpDer=true
+builderNum=7
+outputDir=output/
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=main.tex
+outputFile=UserManual-RCD001.pdf
+langSpell=en
+markDer=true
+srcDir=src/
