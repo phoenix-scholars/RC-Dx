@@ -1,19 +1,45 @@
-%%This is a very basic article template.
-%%There is just one section and two subsections.
-\documentclass{article}
+\documentclass[
+% notumble,
+%nofoldmark,
+% dvipdfm,
+portrait,
+%titlepage,
+%%nocombine,
+%a3paper,
+debug,
+%nospecialtricks,
+%draft,
+]{../boostan/Boostan-Brochure}
+
+
+\title{ابر - مدیریت سیستم‌های پردازشی خوشه‌ای}
+\author{دانش  پژوهان ققنوس (سهامی خاص)}
+\date{1393}
+
+
+\AddToBackground{1}{%  Background of a small page
+  \put(0,0){\textcolor{blue}{\rule{\paperwidth}{\paperheight}}}}
+\AddToBackground{2}{%  Background of a small page
+  \put(0,0){\textcolor{red}{\rule{\paperwidth}{\paperheight}}}}
+\AddToBackground{3}{%  Background of a small page
+  \put(0,0){\textcolor{green}{\rule{\paperwidth}{\paperheight}}}}
+\AddToBackground{4}{%  Background of a small page
+  \put(0,0){\textcolor{orange}{\rule{\paperwidth}{\paperheight}}}}
+\AddToBackground{5}{%  Background of a small page
+  \put(0,0){\textcolor{yellow}{\rule{\paperwidth}{\paperheight}}}}
+\AddToBackground{6}{%  Background of a small page
+  \put(0,0){\textcolor{brown}{\rule{0}{0}}}}
+
 
 \begin{document}
+\maketitle
 
-
-\section{Title}
-
-\subsection{Subtitle}
-
-Plain text.
-
-\subsection{Another subtitle}
-
-More plain text.
-
+\input{introduction}
+\input{use-case}
+\input{detail}
+\input{road-map}
+\input{info}
 
 \end{document}
+\endinput
+%%
